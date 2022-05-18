@@ -29,6 +29,7 @@ namespace AspNetMVCApi_PL.Controllers
         [System.Web.Http.Route("")]
         public ResponseData GetAllStudents()
         {
+
             try
             {
                 var result = _studentService.GetAllStudents().Data;
